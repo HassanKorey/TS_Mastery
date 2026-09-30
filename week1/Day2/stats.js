@@ -1,5 +1,5 @@
 function findMax(numbers){
-for (let i = 1; i < numbers.length; i++) {
+for (let i = 0; i < numbers.length; i++) {
     if (numbers.length === 0) {
         return 0;
     }
@@ -14,7 +14,7 @@ function findMin(numbers){
     if (numbers.length === 0) {
         return 0;
     }
-    for (let i = 1; i < numbers.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
         if (numbers[i] < numbers[0]) {
             numbers[0] = numbers[i];
         }
@@ -27,7 +27,7 @@ function findAverage(numbers){
     if (numbers.length === 0) {
         return 0;
     }
-    for (let i = 1; i < numbers.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
        result += numbers[i];
        res = result / numbers.length;
     }
